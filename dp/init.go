@@ -9,3 +9,8 @@ package dp
 	5、举例推导DP数组
 
 */
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
